@@ -8,6 +8,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    docile (1.4.0)
     io-console (0.6.0)
     irb (1.6.2)
       reline (>= 0.3.0)
@@ -16,6 +17,12 @@ GEM
     rbs (2.7.0)
     reline (0.3.2)
       io-console (~> 0.5)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
 
 PLATFORMS
   x86_64-darwin-20
@@ -24,6 +31,7 @@ DEPENDENCIES
   katakata_irb!
   minitest (~> 5.0)
   rake (~> 13.0)
+  simplecov
 
 BUNDLED WITH
    2.4.5
